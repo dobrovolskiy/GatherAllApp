@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <AnalogClock android:layout_width="198dp" android:layout_height="87dp"
+                 android:background="@android:color/holo_orange_dark" android:layout_gravity="center"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="41dp"
+            android:height="150px"
+            android:text="Hello World, HG89!!!"
+            />
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="43dp"
+            android:id="@+id/imageView" android:layout_gravity="center" android:src="@drawable/ic_launcher"/>
+    <DatePicker
+            android:layout_width="245dp"
+            android:layout_height="69dp"
+            android:id="@+id/datePicker"/>
+    <ZoomButton
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:id="@+id/zoomButton"/>
+</LinearLayout>
+
