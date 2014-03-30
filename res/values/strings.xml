@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TestAndroidApp</string>
+    <string name="app_name">GatherAllApp</string>
+    <string name="myClickHandler">myClickHandler</string>
+    <string name="celsius">to Celsius</string>
+    <string name="fahrenheit">to Fahrenheit</string>
+    <string name="calc">Calculate</string>
+    <string name="onLabel">On</string>
+    <string name="offLabel">Off</string>
+    <color name="myColor">#3399CC</color>
 </resources>
